@@ -6,8 +6,16 @@ var e = document.querySelector('.box');
 d.onclick=()=>{
     var hoaiName = 'Cam Hoai';
     var hoaiPass = 'Hoai0803';
+
     var bongName = 'Quynh Bong';
     var bongPass = 'Bong0803';
+
+    var anhName = 'Minh Anh';
+    var anhPass = 'Anh0803';
+
+    var thanhName = 'Thuy Thanh';
+    var thanhPass = 'Thanh0803';
+
     if(hoaiName===a.value && hoaiPass===b.value) {
         c.innerHTML = 
         ` 
@@ -26,6 +34,28 @@ d.onclick=()=>{
             <h1>HAPPY WOMEN DAY</h1>
             <p>Nhân ngày 8/3 mình chúc bạn Bông vui vẻ, xinh đẹp và thành công trong cuộc sống nha. Mong sớm gặp lại Bông ở HN :))</p>
             <img src ="./bong.jpg">
+        </div>
+        `
+    }
+
+    else if(anhName===a.value && anhPass===b.value) {
+        c.innerHTML = 
+        ` 
+        <div class="content">
+            <h1>HAPPY WOMEN DAY</h1>
+            <p>Nhân ngày 8/3 mình chúc bạn Ánh vui vẻ, xinh đẹp và thành công trong cuộc sống nha. Mong sớm gặp lại Ánh nha :))</p>
+            <img src="./anh.jpg">
+        </div>
+        `
+    }
+
+    else if(thanhName===a.value && thanhPass===b.value) {
+        c.innerHTML = 
+        ` 
+        <div class="content">
+            <h1>HAPPY WOMEN DAY</h1>
+            <p>Nhân ngày 8/3 a chúc e Thành Teaching Assistant vui vẻ, xinh đẹp và thành công trong cuộc sống nha. Mong có dịp gặp e ở Hà Nội :))</p>
+            <img src="./thanh.jpg">
         </div>
         `
     }
