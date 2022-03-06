@@ -32,7 +32,8 @@ d.onclick=()=>{
         ` 
         <div class="content">
             <h1>HAPPY WOMEN DAY</h1>
-            <p>Nhân ngày 8/3 mình chúc bạn Bông vui vẻ, xinh đẹp và thành công trong cuộc sống nha. Mong sớm gặp lại Bông ở HN :))</p>
+            <p>Nhân ngày 8/3 mình chúc bạn Bông vui vẻ, xinh đẹp và thành công trong cuộc sống nha. 
+            Mong sớm gặp lại Bông ở HN :)) (Mãi cười tươi như vậy nhé ! ) </p>
             <img src ="./bong.jpg">
         </div>
         `
@@ -43,7 +44,8 @@ d.onclick=()=>{
         ` 
         <div class="content">
             <h1>HAPPY WOMEN DAY</h1>
-            <p>Nhân ngày 8/3 mình chúc bạn Ánh vui vẻ, xinh đẹp và thành công trong cuộc sống nha. Mong sớm gặp lại Ánh nha :))</p>
+            <p>Nhân ngày 8/3 mình chúc bạn Ánh vui vẻ, xinh đẹp và thành công trong cuộc sống nha. Mong sớm gặp lại Ánh nha :))
+             (Mãi cười tươi như vậy nhé ! ) </p>
             <img src="./anh.jpg">
         </div>
         `
