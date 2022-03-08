@@ -16,6 +16,10 @@ d.onclick=()=>{
     var thanhName = 'Thuy Thanh';
     var thanhPass = 'Thanh0803';
 
+    var thuyName = 'Vo Thuy';
+    var thuyPass = 'Thuy0803';
+
+
     if(hoaiName===a.value && hoaiPass===b.value) {
         c.innerHTML = 
         ` 
@@ -58,6 +62,21 @@ d.onclick=()=>{
             <h1>HAPPY WOMEN DAY</h1>
             <p>Nhân ngày 8/3 a chúc e Thành Teaching Assistant vui vẻ, xinh đẹp và thành công trong cuộc sống nha. Mong có dịp gặp e ở Hà Nội :))</p>
             <img src="./thanh.jpg">
+        </div>
+        `
+    }
+
+    else if(thuyName===a.value && thuyPass===b.value) {
+        c.innerHTML = 
+        ` 
+        <div class="content">
+            <h1>HAPPY WOMEN DAY</h1>
+            <p>Nhân ngày 8/3 mình chúc bạn Thúy vui vẻ, xinh đẹp và thành công trong cuộc sống nha.
+            Không nhầm thì nay còn là sinh nhật bạn. Vậy nên chúc bạn có một sinh nhật đầu tiên ở trọ thật đáng nhớ.
+            Cố gắng qua môn để sớm ra trường nhes.
+             Mong sớm gặp lại Thúy nha :))
+             (Luôn phải nở nụ cười trên môi như bạn Thúy mình biết nha 😁 ! ) </p>
+            <img src="./thuy.jpg">
         </div>
         `
     }
